@@ -7,6 +7,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Share />} />
+          <Route path="/app" element={<Share />} />
           <Route path="*" element={<Share />} />
         </Routes>
       </Router>
