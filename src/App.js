@@ -1,7 +1,17 @@
-export default function App() {
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Share } from "./Share";
+
+function App() {
   return (
     <div className="App">
-      <p>Avokiddo</p>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Share />} />
+          <Route path="*" element={<Share />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
+
+export default App;
