@@ -2,10 +2,12 @@
   {
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
-      "namespace": "com.Avokiddo",
+      "namespace": "android_app",
       "package_name": "com.Avokiddo",
       "sha256_cert_fingerprints": [
-        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+        "0F:F7:50:4F:F8:39:16:55:08:3E:1F:25:B7:00:9D:4F:7D:8B:7D:FA:F4:52:9A:0E:2C:4B:D8:C0:63:E9:54:C8"
+
        
       ]
     }
